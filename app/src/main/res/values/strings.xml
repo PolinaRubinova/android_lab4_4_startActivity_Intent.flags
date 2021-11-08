@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lab3</string>
+    <string name="to_second">to second</string>
+    <string name="text_first">First</string>
+    <string name="to_first">to first</string>
+    <string name="to_third">to third</string>
+    <string name="text_second">Second</string>
+    <string name="text_third">Third</string>
+    <string name="oops">There are no Easter Eggs up here. Go away.</string>
+    <string name="to_about">to about</string>
+</resources>
