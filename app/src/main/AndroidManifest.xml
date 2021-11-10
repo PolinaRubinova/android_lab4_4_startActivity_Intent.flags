@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab4_4">
         <activity
-            android:name=".FirstActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +20,7 @@
         <activity
             android:name=".SecondActivity"
             android:exported="true"
-            android:parentActivityName="com.example.lab4_4.FirstActivity"/>
+            android:parentActivityName="com.example.lab4_4.MainActivity"/>
         <activity
             android:name=".ThirdActivity"
             android:exported="true"

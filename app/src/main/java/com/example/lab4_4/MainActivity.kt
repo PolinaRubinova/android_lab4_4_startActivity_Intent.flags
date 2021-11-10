@@ -6,7 +6,7 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.example.lab4_4.databinding.ActivityFirstBinding
 
-class FirstActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -15,7 +15,6 @@ class FirstActivity : AppCompatActivity() {
 
         binding.bnToSecond.setOnClickListener { toSecond() }
         binding.navView.setOnItemSelectedListener { toAbout(it) }
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
     private fun toSecond() {

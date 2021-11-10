@@ -25,7 +25,7 @@ import java.lang.Thread.sleep
 @RunWith(AndroidJUnit4::class)
 class NavigationTest {
     @get:Rule
-    val activityScenarioRule = ActivityScenarioRule(FirstActivity::class.java)
+    val activityScenarioRule = ActivityScenarioRule(MainActivity::class.java)
 
     private fun changeScreenOrientation(mode: Boolean) {
         activityScenarioRule.scenario.onActivity { activity ->

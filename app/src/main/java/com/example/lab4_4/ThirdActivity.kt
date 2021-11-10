@@ -19,7 +19,7 @@ class ThirdActivity : AppCompatActivity() {
     }
 
     private fun toFirst() {
-        val intent = Intent(this, FirstActivity::class.java)
+        val intent = Intent(this, MainActivity::class.java)
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
         startActivity(intent)
     }
